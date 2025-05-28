@@ -1,3 +1,4 @@
+'use client'
 import { useState } from 'react';
 
 export default function TransactionHistory() {
@@ -139,7 +140,7 @@ export default function TransactionHistory() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={8} className="px-6 py-4 text-center text-sm text-gray-500">
+                    <td colSpan="8" className="px-6 py-4 text-center text-sm text-gray-500">
                       Aucune transaction trouvée
                     </td>
                   </tr>

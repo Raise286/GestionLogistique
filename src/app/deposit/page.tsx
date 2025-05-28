@@ -1,3 +1,4 @@
+'use client'
 import { useState } from 'react';
 
 export default function PackageDeposit() {
@@ -186,7 +187,7 @@ export default function PackageDeposit() {
                 onChange={handleInputChange}
                 placeholder="Décrivez le contenu du colis"
                 className="w-full p-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500"
-                rows={3}
+                rows="3"
               ></textarea>
             </div>
             
