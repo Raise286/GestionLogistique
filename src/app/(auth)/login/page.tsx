@@ -3,6 +3,7 @@
 import { useAuth } from "@/contexts/AuthContext";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
+import { useEffect } from "react";
 
 export default function LoginPage() {
   const [email, setEmail] = useState('livreur.indep@test.com'); // pré-rempli pour test
@@ -22,10 +23,11 @@ export default function LoginPage() {
   
   // Si la connexion réussit, le user object est mis à jour
   // On utilise un effect pour rediriger
-  if (user) {
-    router.push(`/dashboard/${user.role}`);
-    return null; // Affiche rien pendant la redirection
-  }
+  useEffect(() => {
+    if (user) {
+      router.push(`/dashboard/${user.role}`);
+    }
+  }, [user, router]);
 
   return (
     <div className="flex items-center justify-center mt-10">
