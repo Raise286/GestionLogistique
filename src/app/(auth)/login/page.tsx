@@ -1,65 +1,110 @@
 // app/(auth)/login/page.tsx
 "use client";
+
 import { useAuth } from "@/contexts/AuthContext";
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import { FormEvent, useState, useEffect } from "react";
+import { toast } from "react-hot-toast";
+import { Loader2 } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import Link from "next/link";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState('livreur.indep@test.com'); // pré-rempli pour test
-  const [password, setPassword] = useState('123'); // pré-rempli pour test
-  const [error, setError] = useState('');
-  const { login, user } = useAuth();
+  const [email, setEmail] = useState('livreur@test.com');
+  const [password, setPassword] = useState('123');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { login, user, isLoading: isAuthLoading } = useAuth(); // On récupère l'état de chargement de l'authentification
   const router = useRouter();
 
-  const handleSubmit = (e: FormEvent) => {
+  // --- OPTIMISATION CLÉ ---
+  // Ce hook redirige si l'utilisateur est déjà connecté.
+  // Il ne s'exécute qu'une fois le statut d'authentification connu.
+  useEffect(() => {
+    if (!isAuthLoading && user) {
+      router.push('/dashboard');
+    }
+  }, [user, isAuthLoading, router]);
+
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    setError('');
-    const success = login(email, password);
-    if (!success) {
-      setError('Email ou mot de passe incorrect.');
+    setIsSubmitting(true);
+    
+    const success = await login(email, password);
+    
+    if (success) {
+      toast.success("Connexion réussie !");
+      router.push('/dashboard');
+    } else {
+      toast.error('Email ou mot de passe incorrect.');
+      setIsSubmitting(false);
     }
   };
-  
-  // Si la connexion réussit, le user object est mis à jour
-  // On utilise un effect pour rediriger
-  if (user) {
-    router.push(`/dashboard/${user.role}`);
-    return null; // Affiche rien pendant la redirection
+
+  // --- OPTIMISATION CLÉ ---
+  // On affiche un loader général UNIQUEMENT si l'authentification est en cours
+  // ET qu'on ne sait pas encore s'il y a un utilisateur.
+  // Cela empêche l'affichage "flash" de la page de login avant la redirection.
+  if (isAuthLoading || user) {
+      return (
+          <div className="flex items-center justify-center h-screen">
+              <Loader2 className="h-12 w-12 animate-spin text-primary" />
+          </div>
+      );
   }
 
+  // Si l'authentification est terminée et qu'il n'y a pas d'utilisateur,
+  // on affiche le formulaire de connexion.
   return (
-    <div className="flex items-center justify-center mt-10">
-      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold text-center">Connexion</h1>
-        {error && <p className="text-red-500 text-center">{error}</p>}
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-            <input
-              id="email"
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="password"  className="block text-sm font-medium text-gray-700">Mot de passe</label>
-            <input
-              id="password"
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-              required
-            />
-          </div>
-          <button type="submit" className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-            Se connecter
-          </button>
+    <div className="container flex items-center justify-center min-h-[calc(100vh-8rem)]">
+      <Card className="w-full max-w-sm">
+        <CardHeader>
+          <CardTitle className="text-2xl">Connexion</CardTitle>
+          <CardDescription>
+            Entrez votre email ci-dessous pour vous connecter à votre compte.
+          </CardDescription>
+        </CardHeader>
+        <form onSubmit={handleSubmit}>
+          <CardContent className="grid gap-4">
+            <div className="grid gap-2">
+              <Label htmlFor="email">Email</Label>
+              <Input
+                id="email"
+                type="email"
+                placeholder="m@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div className="grid gap-2">
+              <Label htmlFor="password">Mot de passe</Label>
+              <Input 
+                id="password" 
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required 
+              />
+            </div>
+          </CardContent>
+          <CardFooter className="flex flex-col">
+            <Button className="w-full" type="submit" disabled={isSubmitting}>
+              {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              Se connecter
+            </Button>
+            <div className="mt-4 text-center text-sm">
+              Vous n'avez pas de compte?{" "}
+              <Link href="/register" className="underline">
+                S'inscrire
+              </Link>
+            </div>
+          </CardFooter>
         </form>
-      </div>
+      </Card>
     </div>
   );
 }

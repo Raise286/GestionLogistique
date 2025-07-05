@@ -3,11 +3,12 @@
 
 import React, { createContext, useState, useContext, useEffect, ReactNode } from 'react';
 import { User } from '@/lib/types';
-import { users } from '@/data/mockData';
+import { loginUser } from '@/lib/api';
+import { toast } from 'react-hot-toast';
 
 interface AuthContextType {
   user: User | null;
-  login: (email: string, pass: string) => boolean;
+  login: (email: string, pass: string) => Promise<boolean>;
   logout: () => void;
   isLoading: boolean;
 }
@@ -19,28 +20,30 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simule la vérification d'une session existante
     try {
       const storedUser = localStorage.getItem('user');
       if (storedUser) {
         setUser(JSON.parse(storedUser));
       }
-    } catch (error) {
-      console.error("Failed to parse user from localStorage", error);
-    }
+    } catch (error) { console.error(error); }
     setIsLoading(false);
   }, []);
 
-  const login = (email: string, pass: string): boolean => {
-    const foundUser = users.find(u => u.email === email && u.password === pass);
-    if (foundUser) {
-      const userToStore = { ...foundUser };
-      delete userToStore.password; // Ne jamais stocker le mot de passe !
-      setUser(userToStore);
-      localStorage.setItem('user', JSON.stringify(userToStore));
-      return true;
+  const login = async (email: string, pass: string): Promise<boolean> => {
+    try {
+      const foundUser = await loginUser(email, pass);
+      if (foundUser) {
+        const userToStore = { ...foundUser };
+        delete userToStore.password;
+        setUser(userToStore);
+        localStorage.setItem('user', JSON.stringify(userToStore));
+        return true;
+      }
+      return false;
+    } catch (error) {
+      toast.error("Erreur de connexion au serveur.");
+      return false;
     }
-    return false;
   };
 
   const logout = () => {

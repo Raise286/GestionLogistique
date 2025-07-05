@@ -1,0 +1,1871 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "livreur@test.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Jean Livreur"
+    },
+    {
+      "id": "2",
+      "email": "client@test.com",
+      "password": "123",
+      "role": "client",
+      "name": "Marie Cliente"
+    },
+    {
+      "id": "3",
+      "email": "admin@pickndrop.link",
+      "password": "123",
+      "role": "admin",
+      "name": "Admin PNDL"
+    },
+    {
+      "id": "4",
+      "email": "org@test.com",
+      "password": "123",
+      "role": "organisation",
+      "name": "Super U Mvog-Mbi"
+    },
+    {
+      "id": "5",
+      "email": "Abdon.Jacquet52@yahoo.fr",
+      "password": "123",
+      "role": "organisation",
+      "name": "Richard SAS"
+    },
+    {
+      "id": "6",
+      "email": "Emmanuel.Fleury14@gmail.com",
+      "password": "123",
+      "role": "organisation",
+      "name": "Gauthier SEM"
+    },
+    {
+      "id": "7",
+      "email": "Amedee84@hotmail.fr",
+      "password": "123",
+      "role": "organisation",
+      "name": "Prevost SEM"
+    },
+    {
+      "id": "8",
+      "email": "Audebert.Mathieu@yahoo.fr",
+      "password": "123",
+      "role": "organisation",
+      "name": "Marty et Perez"
+    },
+    {
+      "id": "9",
+      "email": "Blandine_Renaud99@gmail.com",
+      "password": "123",
+      "role": "organisation",
+      "name": "Blanchard et Guyot"
+    },
+    {
+      "id": "10",
+      "email": "Cesar64@gmail.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Arcadie Bertrand",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/39.jpg",
+      "equipment": "voiture"
+    },
+    {
+      "id": "11",
+      "email": "Amedee_Aubry94@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Morgan Barre",
+      "type": "employe",
+      "organizationId": 5,
+      "photoUrl": "https://avatars.githubusercontent.com/u/76084857",
+      "equipment": "scooter"
+    },
+    {
+      "id": "12",
+      "email": "Agnes.Dumont@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Aloïse Marie",
+      "type": "employe",
+      "organizationId": 6,
+      "photoUrl": "https://avatars.githubusercontent.com/u/11250080",
+      "equipment": "voiture"
+    },
+    {
+      "id": "13",
+      "email": "Camillien_Rodriguez@yahoo.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Alexandre Philippe",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/94.jpg",
+      "equipment": "voiture"
+    },
+    {
+      "id": "14",
+      "email": "Aimable81@yahoo.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Diane Philippe",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/8.jpg",
+      "equipment": "scooter"
+    },
+    {
+      "id": "15",
+      "email": "Faustine_Chevalier14@yahoo.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Mlle Bathilde Philippe",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/94.jpg",
+      "equipment": "voiture"
+    },
+    {
+      "id": "16",
+      "email": "Noelle_Marchal@gmail.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Ombline Gonzalez",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/65.jpg",
+      "equipment": "voiture"
+    },
+    {
+      "id": "17",
+      "email": "Armin.Renard@gmail.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Flavie Garnier",
+      "type": "employe",
+      "organizationId": 9,
+      "photoUrl": "https://avatars.githubusercontent.com/u/46830195",
+      "equipment": "voiture"
+    },
+    {
+      "id": "18",
+      "email": "Jeannot.Vincent@gmail.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Victoire Morel",
+      "type": "employe",
+      "organizationId": 4,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/63.jpg",
+      "equipment": "scooter"
+    },
+    {
+      "id": "19",
+      "email": "Sylvestre.Marchand@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Prof Tonnin Fontaine",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://avatars.githubusercontent.com/u/36079746",
+      "equipment": "scooter"
+    },
+    {
+      "id": "20",
+      "email": "Fabrice7@yahoo.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Thaïs Guillaume",
+      "type": "employe",
+      "organizationId": 9,
+      "photoUrl": "https://avatars.githubusercontent.com/u/31025698",
+      "equipment": "voiture"
+    },
+    {
+      "id": "21",
+      "email": "Chrysole_Menard96@gmail.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Gertrude Le roux",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://avatars.githubusercontent.com/u/22245898",
+      "equipment": "vélo"
+    },
+    {
+      "id": "22",
+      "email": "Edouard_Masson58@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Jacinthe Andre",
+      "type": "employe",
+      "organizationId": 4,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/67.jpg",
+      "equipment": "vélo"
+    },
+    {
+      "id": "23",
+      "email": "Aaron_Julien@gmail.com",
+      "password": "123",
+      "role": "livreur",
+      "name": "Ombline Denis",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/20.jpg",
+      "equipment": "voiture"
+    },
+    {
+      "id": "24",
+      "email": "Maud.Gautier17@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Mlle Francette Huet",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/88.jpg",
+      "equipment": "vélo"
+    },
+    {
+      "id": "25",
+      "email": "Bathilde_Meyer59@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Noëlle Riviere",
+      "type": "employe",
+      "organizationId": 9,
+      "photoUrl": "https://avatars.githubusercontent.com/u/56065416",
+      "equipment": "vélo"
+    },
+    {
+      "id": "26",
+      "email": "Guillaume.Dasilva40@yahoo.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Almire Rodriguez",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/25.jpg",
+      "equipment": "scooter"
+    },
+    {
+      "id": "27",
+      "email": "Agilbert45@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Léopold Roussel",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/34.jpg",
+      "equipment": "vélo"
+    },
+    {
+      "id": "28",
+      "email": "Flodoard97@yahoo.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Flodoard Noel",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/6.jpg",
+      "equipment": "voiture"
+    },
+    {
+      "id": "29",
+      "email": "Fiacre.Leroy58@hotmail.fr",
+      "password": "123",
+      "role": "livreur",
+      "name": "Eusébie Fontaine",
+      "type": "independant",
+      "organizationId": null,
+      "photoUrl": "https://avatars.githubusercontent.com/u/33320172",
+      "equipment": "voiture"
+    }
+  ],
+  "deliveries": [
+    {
+      "id": "1",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 9,
+      "origin": {
+        "lat": 3.8597,
+        "lng": 11.5479
+      },
+      "destination": {
+        "lat": 3.816,
+        "lng": 11.4529
+      },
+      "currentPosition": {
+        "lat": 3.8597,
+        "lng": 11.5479
+      },
+      "originAddress": "209 Passage de la Chaussée-d'Antin, Bastos",
+      "destinationAddress": "9 Rue de l'Abbaye, Nlongkak",
+      "price": 2081.75,
+      "distance": 9.683104137312027,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-29T07:17:33.094Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.421Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8638,
+        "lng": 11.5067
+      },
+      "destination": {
+        "lat": 3.8248,
+        "lng": 11.5144
+      },
+      "currentPosition": {
+        "lat": 3.8638,
+        "lng": 11.5067
+      },
+      "originAddress": "4493 Avenue Montorgueil, Mokolo",
+      "destinationAddress": "6070 Rue de la Bûcherie, Nlongkak",
+      "price": 2879.59,
+      "distance": 14.866866473903027,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-25T22:56:54.586Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.422Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 6,
+      "origin": {
+        "lat": 3.8241,
+        "lng": 11.4579
+      },
+      "destination": {
+        "lat": 3.811,
+        "lng": 11.5063
+      },
+      "currentPosition": {
+        "lat": 3.8241,
+        "lng": 11.4579
+      },
+      "originAddress": "579 Allée Laffitte, Biyem-Assi",
+      "destinationAddress": "773 Passage de Solférino, Nlongkak",
+      "price": 2264.49,
+      "distance": 7.795767983060669,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T14:20:11.088Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.422Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8535,
+        "lng": 11.5128
+      },
+      "destination": {
+        "lat": 3.8634,
+        "lng": 11.5158
+      },
+      "currentPosition": {
+        "lat": 3.8535,
+        "lng": 11.5128
+      },
+      "originAddress": "6916 Passage des Lombards, Essos",
+      "destinationAddress": "8 Passage de Seine, Nlongkak",
+      "price": 3694.29,
+      "distance": 13.130048442147098,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T06:36:30.438Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.422Z"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 6,
+      "origin": {
+        "lat": 3.8635,
+        "lng": 11.5398
+      },
+      "destination": {
+        "lat": 3.9,
+        "lng": 11.5373
+      },
+      "currentPosition": {
+        "lat": 3.8635,
+        "lng": 11.5398
+      },
+      "originAddress": "9 Impasse Pierre Charron, Mokolo",
+      "destinationAddress": "1107 Avenue de Tilsitt, Etoa-Meki",
+      "price": 1208.89,
+      "distance": 5.108801010788018,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T19:18:00.493Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.422Z"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 5,
+      "origin": {
+        "lat": 3.8277,
+        "lng": 11.4814
+      },
+      "destination": {
+        "lat": 3.8217,
+        "lng": 11.5123
+      },
+      "currentPosition": {
+        "lat": 3.8277,
+        "lng": 11.4814
+      },
+      "originAddress": "7697 Voie Saint-Jacques, Essos",
+      "destinationAddress": "6710 Rue du Faubourg Saint-Honoré, Etoa-Meki",
+      "price": 1889.49,
+      "distance": 2.044510072804184,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-29T09:25:06.524Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.423Z"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8011,
+        "lng": 11.4553
+      },
+      "destination": {
+        "lat": 3.87,
+        "lng": 11.4628
+      },
+      "currentPosition": {
+        "lat": 3.8011,
+        "lng": 11.4553
+      },
+      "originAddress": "5 Impasse de la Harpe, Mokolo",
+      "destinationAddress": "8624 Avenue Zadkine, Mendong",
+      "price": 4219.69,
+      "distance": 11.370675606745934,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-03T04:30:31.688Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.423Z"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8082,
+        "lng": 11.5123
+      },
+      "destination": {
+        "lat": 3.8066,
+        "lng": 11.4931
+      },
+      "currentPosition": {
+        "lat": 3.8082,
+        "lng": 11.5123
+      },
+      "originAddress": "5 Passage La Boétie, Biyem-Assi",
+      "destinationAddress": "877 Place de la Pompe, Nlongkak",
+      "price": 3501.19,
+      "distance": 2.8171661180667926,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-27T23:22:52.100Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.423Z"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8702,
+        "lng": 11.519
+      },
+      "destination": {
+        "lat": 3.8276,
+        "lng": 11.5374
+      },
+      "currentPosition": {
+        "lat": 3.8702,
+        "lng": 11.519
+      },
+      "originAddress": "487 Voie de Montmorency, Mvan",
+      "destinationAddress": "45 Boulevard d'Abbeville, Elig-Essono",
+      "price": 3173.35,
+      "distance": 6.122478929461533,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-26T17:19:04.244Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.423Z"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.883,
+        "lng": 11.5268
+      },
+      "destination": {
+        "lat": 3.8293,
+        "lng": 11.4741
+      },
+      "currentPosition": {
+        "lat": 3.883,
+        "lng": 11.5268
+      },
+      "originAddress": "91 Place Du Sommerard, Mokolo",
+      "destinationAddress": "17 Rue du Havre, Etoa-Meki",
+      "price": 3718.69,
+      "distance": 14.254438425153625,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-28T15:58:59.659Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.424Z"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 4,
+      "origin": {
+        "lat": 3.8753,
+        "lng": 11.5173
+      },
+      "destination": {
+        "lat": 3.8929,
+        "lng": 11.4853
+      },
+      "currentPosition": {
+        "lat": 3.8753,
+        "lng": 11.5173
+      },
+      "originAddress": "72 Impasse de la Victoire, Essos",
+      "destinationAddress": "382 Place d'Assas, Mendong",
+      "price": 1942.59,
+      "distance": 7.980452043827249,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-29T04:29:23.484Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.424Z"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8689,
+        "lng": 11.4699
+      },
+      "destination": {
+        "lat": 3.822,
+        "lng": 11.484
+      },
+      "currentPosition": {
+        "lat": 3.8689,
+        "lng": 11.4699
+      },
+      "originAddress": "6560 Voie La Boétie, Mvan",
+      "destinationAddress": "8071 Avenue de Richelieu, Mendong",
+      "price": 4744.29,
+      "distance": 10.871782452645396,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-25T23:22:21.439Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.424Z"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8692,
+        "lng": 11.5178
+      },
+      "destination": {
+        "lat": 3.8023,
+        "lng": 11.5201
+      },
+      "currentPosition": {
+        "lat": 3.8692,
+        "lng": 11.5178
+      },
+      "originAddress": "9 Rue Vaneau, Essos",
+      "destinationAddress": "25 Rue Du Sommerard, Etoa-Meki",
+      "price": 4003.55,
+      "distance": 4.101114912830864,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-25T13:33:38.924Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.424Z"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8301,
+        "lng": 11.5278
+      },
+      "destination": {
+        "lat": 3.876,
+        "lng": 11.5145
+      },
+      "currentPosition": {
+        "lat": 3.8301,
+        "lng": 11.5278
+      },
+      "originAddress": "37 Place d'Orsel, Bastos",
+      "destinationAddress": "3270 Rue de Solférino, Nlongkak",
+      "price": 1338.55,
+      "distance": 7.7518176989408705,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-27T12:58:33.451Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.424Z"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 4,
+      "origin": {
+        "lat": 3.8523,
+        "lng": 11.5023
+      },
+      "destination": {
+        "lat": 3.8286,
+        "lng": 11.5239
+      },
+      "currentPosition": {
+        "lat": 3.8523,
+        "lng": 11.5023
+      },
+      "originAddress": "670 Place Bonaparte, Essos",
+      "destinationAddress": "51 Allée de l'Abbaye, Nlongkak",
+      "price": 3622.6,
+      "distance": 4.492727006459886,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-27T01:54:54.894Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.425Z"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 8,
+      "origin": {
+        "lat": 3.8434,
+        "lng": 11.5414
+      },
+      "destination": {
+        "lat": 3.8222,
+        "lng": 11.487
+      },
+      "currentPosition": {
+        "lat": 3.8434,
+        "lng": 11.5414
+      },
+      "originAddress": "452 Boulevard de Montmorency, Biyem-Assi",
+      "destinationAddress": "8 Passage La Boétie, Elig-Essono",
+      "price": 3218.18,
+      "distance": 6.852025407016387,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T05:54:33.287Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.425Z"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8845,
+        "lng": 11.4998
+      },
+      "destination": {
+        "lat": 3.8298,
+        "lng": 11.5206
+      },
+      "currentPosition": {
+        "lat": 3.8845,
+        "lng": 11.4998
+      },
+      "originAddress": "69 Voie Molière, Bastos",
+      "destinationAddress": "8341 Avenue Saint-Bernard, Nlongkak",
+      "price": 4701.69,
+      "distance": 3.494066614688225,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-03T03:31:55.579Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.425Z"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8213,
+        "lng": 11.5317
+      },
+      "destination": {
+        "lat": 3.8128,
+        "lng": 11.454
+      },
+      "currentPosition": {
+        "lat": 3.8213,
+        "lng": 11.5317
+      },
+      "originAddress": "4 Avenue des Grands Augustins, Mokolo",
+      "destinationAddress": "1788 Boulevard des Panoramas, Mendong",
+      "price": 2222.35,
+      "distance": 3.9500198114557934,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-30T19:05:54.581Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.425Z"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8905,
+        "lng": 11.4815
+      },
+      "destination": {
+        "lat": 3.8111,
+        "lng": 11.5195
+      },
+      "currentPosition": {
+        "lat": 3.8905,
+        "lng": 11.4815
+      },
+      "originAddress": "99 Quai Joubert, Essos",
+      "destinationAddress": "43 Avenue Vaneau, Nlongkak",
+      "price": 1518.3,
+      "distance": 14.477946642622975,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-04T16:49:56.739Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.425Z"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 9,
+      "origin": {
+        "lat": 3.8395,
+        "lng": 11.5434
+      },
+      "destination": {
+        "lat": 3.8829,
+        "lng": 11.4723
+      },
+      "currentPosition": {
+        "lat": 3.8395,
+        "lng": 11.5434
+      },
+      "originAddress": "755 Quai Laffitte, Essos",
+      "destinationAddress": "76 Voie d'Assas, Etoa-Meki",
+      "price": 3938.75,
+      "distance": 7.037841002977491,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-27T10:02:54.595Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.425Z"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8995,
+        "lng": 11.5016
+      },
+      "destination": {
+        "lat": 3.8013,
+        "lng": 11.4613
+      },
+      "currentPosition": {
+        "lat": 3.8995,
+        "lng": 11.5016
+      },
+      "originAddress": "8643 Rue des Francs-Bourgeois, Mokolo",
+      "destinationAddress": "4962 Place Saint-Denis, Elig-Essono",
+      "price": 1871.69,
+      "distance": 10.930251940914832,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-02T17:19:42.558Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8885,
+        "lng": 11.4919
+      },
+      "destination": {
+        "lat": 3.827,
+        "lng": 11.4878
+      },
+      "currentPosition": {
+        "lat": 3.8885,
+        "lng": 11.4919
+      },
+      "originAddress": "9 Voie des Francs-Bourgeois, Biyem-Assi",
+      "destinationAddress": "310 Avenue de la Victoire, Nlongkak",
+      "price": 3449.25,
+      "distance": 3.2334844375506506,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-02T11:45:18.528Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "clientId": 2,
+      "livreurId": "1",
+      "status": "delivered",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8695,
+        "lng": 11.5481
+      },
+      "destination": {
+        "lat": 3.8196,
+        "lng": 11.5288
+      },
+      "currentPosition": {
+        "lat": 3.8695,
+        "lng": 11.5481
+      },
+      "originAddress": "164 Passage Royale, Biyem-Assi",
+      "destinationAddress": "1 Rue de Caumartin, Etoa-Meki",
+      "price": 3366.45,
+      "distance": 7.048538032793287,
+      "pickupDeadline": "2025-07-05T13:00:00.000Z",
+      "createdAt": "2025-07-05T08:16:38.266Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        },
+        {
+          "status": "Picked up by driver",
+          "timestamp": "2025-07-05T11:36:05.635Z"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2025-07-05T11:40:22.960Z"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8833,
+        "lng": 11.5447
+      },
+      "destination": {
+        "lat": 3.8828,
+        "lng": 11.4847
+      },
+      "currentPosition": {
+        "lat": 3.8833,
+        "lng": 11.5447
+      },
+      "originAddress": "9906 Allée Saint-Séverin, Biyem-Assi",
+      "destinationAddress": "806 Impasse des Grands Augustins, Nlongkak",
+      "price": 3646.89,
+      "distance": 9.726065066713293,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-28T06:33:10.506Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8057,
+        "lng": 11.5405
+      },
+      "destination": {
+        "lat": 3.8784,
+        "lng": 11.5159
+      },
+      "currentPosition": {
+        "lat": 3.8057,
+        "lng": 11.5405
+      },
+      "originAddress": "8656 Passage Vaneau, Essos",
+      "destinationAddress": "6 Boulevard du Havre, Elig-Essono",
+      "price": 4060.09,
+      "distance": 13.910240277702814,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T10:07:12.000Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 5,
+      "origin": {
+        "lat": 3.8652,
+        "lng": 11.4961
+      },
+      "destination": {
+        "lat": 3.8558,
+        "lng": 11.4739
+      },
+      "currentPosition": {
+        "lat": 3.8652,
+        "lng": 11.4961
+      },
+      "originAddress": "93 Passage des Francs-Bourgeois, Mvan",
+      "destinationAddress": "3468 Rue du Chat-qui-Pêche, Mendong",
+      "price": 3051.15,
+      "distance": 12.11594083349855,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T15:06:34.486Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 4,
+      "origin": {
+        "lat": 3.8415,
+        "lng": 11.4736
+      },
+      "destination": {
+        "lat": 3.8347,
+        "lng": 11.4726
+      },
+      "currentPosition": {
+        "lat": 3.8415,
+        "lng": 11.4736
+      },
+      "originAddress": "37 Place d'Orsel, Bastos",
+      "destinationAddress": "63 Impasse Oberkampf, Etoa-Meki",
+      "price": 2819.85,
+      "distance": 11.957647207234663,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-28T20:46:23.361Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8914,
+        "lng": 11.5246
+      },
+      "destination": {
+        "lat": 3.8918,
+        "lng": 11.492
+      },
+      "currentPosition": {
+        "lat": 3.8914,
+        "lng": 11.5246
+      },
+      "originAddress": "3 Place Saint-Bernard, Mvan",
+      "destinationAddress": "99 Place des Grands Augustins, Mendong",
+      "price": 3137.65,
+      "distance": 14.295446634727588,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-28T01:49:16.827Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.426Z"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8735,
+        "lng": 11.4556
+      },
+      "destination": {
+        "lat": 3.8091,
+        "lng": 11.536
+      },
+      "currentPosition": {
+        "lat": 3.8735,
+        "lng": 11.4556
+      },
+      "originAddress": "2513 Voie Oberkampf, Mokolo",
+      "destinationAddress": "6684 Allée de Tilsitt, Nlongkak",
+      "price": 3420.05,
+      "distance": 13.568950194915196,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-26T16:31:25.001Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 6,
+      "origin": {
+        "lat": 3.8039,
+        "lng": 11.5047
+      },
+      "destination": {
+        "lat": 3.8372,
+        "lng": 11.5329
+      },
+      "currentPosition": {
+        "lat": 3.8039,
+        "lng": 11.5047
+      },
+      "originAddress": "45 Place de la Bûcherie, Biyem-Assi",
+      "destinationAddress": "401 Impasse Dauphine, Nlongkak",
+      "price": 3836.09,
+      "distance": 14.510182379708116,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-30T21:46:03.638Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 8,
+      "origin": {
+        "lat": 3.8758,
+        "lng": 11.542
+      },
+      "destination": {
+        "lat": 3.8942,
+        "lng": 11.5103
+      },
+      "currentPosition": {
+        "lat": 3.8758,
+        "lng": 11.542
+      },
+      "originAddress": "1 Boulevard de la Victoire, Mvan",
+      "destinationAddress": "7663 Boulevard du Chat-qui-Pêche, Mendong",
+      "price": 2909.25,
+      "distance": 4.925668718326286,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-27T12:07:30.242Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.836,
+        "lng": 11.4843
+      },
+      "destination": {
+        "lat": 3.8098,
+        "lng": 11.5305
+      },
+      "currentPosition": {
+        "lat": 3.836,
+        "lng": 11.4843
+      },
+      "originAddress": "79 Rue du Bac, Biyem-Assi",
+      "destinationAddress": "4563 Voie de la Ferronnerie, Etoa-Meki",
+      "price": 1229.85,
+      "distance": 4.574732956112174,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-05T03:53:33.406Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8566,
+        "lng": 11.4541
+      },
+      "destination": {
+        "lat": 3.8339,
+        "lng": 11.5302
+      },
+      "currentPosition": {
+        "lat": 3.8566,
+        "lng": 11.4541
+      },
+      "originAddress": "921 Quai de Montmorency, Mvan",
+      "destinationAddress": "85 Place Vaneau, Elig-Essono",
+      "price": 1310.89,
+      "distance": 4.112692278014232,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-26T21:06:09.384Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 8,
+      "origin": {
+        "lat": 3.8558,
+        "lng": 11.5223
+      },
+      "destination": {
+        "lat": 3.8274,
+        "lng": 11.5061
+      },
+      "currentPosition": {
+        "lat": 3.8558,
+        "lng": 11.5223
+      },
+      "originAddress": "8 Avenue de Montmorency, Mvan",
+      "destinationAddress": "875 Impasse Monsieur-le-Prince, Nlongkak",
+      "price": 2311.29,
+      "distance": 6.292288860016186,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-30T17:44:31.154Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 8,
+      "origin": {
+        "lat": 3.8333,
+        "lng": 11.4565
+      },
+      "destination": {
+        "lat": 3.8985,
+        "lng": 11.4984
+      },
+      "currentPosition": {
+        "lat": 3.8333,
+        "lng": 11.4565
+      },
+      "originAddress": "88 Allée Pastourelle, Mvan",
+      "destinationAddress": "2824 Passage des Rosiers, Mendong",
+      "price": 4325.85,
+      "distance": 10.733037117975226,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-28T18:44:57.706Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8408,
+        "lng": 11.4749
+      },
+      "destination": {
+        "lat": 3.8312,
+        "lng": 11.5115
+      },
+      "currentPosition": {
+        "lat": 3.8408,
+        "lng": 11.4749
+      },
+      "originAddress": "26 Rue de l'Abbaye, Bastos",
+      "destinationAddress": "867 Quai de Provence, Nlongkak",
+      "price": 2305.55,
+      "distance": 5.8750984136287965,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-29T11:42:37.008Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.427Z"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 9,
+      "origin": {
+        "lat": 3.8237,
+        "lng": 11.5497
+      },
+      "destination": {
+        "lat": 3.8986,
+        "lng": 11.5316
+      },
+      "currentPosition": {
+        "lat": 3.8237,
+        "lng": 11.5497
+      },
+      "originAddress": "595 Passage des Rosiers, Mokolo",
+      "destinationAddress": "2 Voie de l'Odéon, Elig-Essono",
+      "price": 4496.29,
+      "distance": 14.57285000611598,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-29T09:34:08.551Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8867,
+        "lng": 11.4571
+      },
+      "destination": {
+        "lat": 3.8927,
+        "lng": 11.4658
+      },
+      "currentPosition": {
+        "lat": 3.8867,
+        "lng": 11.4571
+      },
+      "originAddress": "2044 Place des Grands Augustins, Essos",
+      "destinationAddress": "1255 Allée des Rosiers, Nlongkak",
+      "price": 2009.39,
+      "distance": 14.192071418041408,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T21:41:33.782Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "clientId": 2,
+      "livreurId": "1",
+      "status": "delivered",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8338,
+        "lng": 11.4693
+      },
+      "destination": {
+        "lat": 3.8559,
+        "lng": 11.5346
+      },
+      "currentPosition": {
+        "lat": 3.8338,
+        "lng": 11.4693
+      },
+      "originAddress": "60 Boulevard de la Chaussée-d'Antin, Mokolo",
+      "destinationAddress": "9385 Allée de Vaugirard, Elig-Essono",
+      "price": 3199.5,
+      "distance": 9.6563775664463,
+      "pickupDeadline": "2025-07-05T12:00:00.000Z",
+      "createdAt": "2025-07-05T09:25:59.465Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        },
+        {
+          "status": "Picked up by driver",
+          "timestamp": "2025-07-05T11:29:40.182Z"
+        },
+        {
+          "status": "Delivered",
+          "timestamp": "2025-07-05T12:27:09.755Z"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8427,
+        "lng": 11.5377
+      },
+      "destination": {
+        "lat": 3.8827,
+        "lng": 11.5124
+      },
+      "currentPosition": {
+        "lat": 3.8427,
+        "lng": 11.5377
+      },
+      "originAddress": "60 Impasse de Nesle, Mvan",
+      "destinationAddress": "79 Passage de Provence, Nlongkak",
+      "price": 3285.19,
+      "distance": 2.7646815104793454,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-04T04:54:25.864Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8491,
+        "lng": 11.5235
+      },
+      "destination": {
+        "lat": 3.8597,
+        "lng": 11.4809
+      },
+      "currentPosition": {
+        "lat": 3.8491,
+        "lng": 11.5235
+      },
+      "originAddress": "3083 Allée de la Harpe, Mokolo",
+      "destinationAddress": "6 Boulevard Saint-Jacques, Elig-Essono",
+      "price": 3340.4,
+      "distance": 3.2499936179131224,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-05T05:56:20.808Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8184,
+        "lng": 11.522
+      },
+      "destination": {
+        "lat": 3.8591,
+        "lng": 11.5463
+      },
+      "currentPosition": {
+        "lat": 3.8184,
+        "lng": 11.522
+      },
+      "originAddress": "5407 Impasse des Panoramas, Essos",
+      "destinationAddress": "197 Boulevard Oberkampf, Etoa-Meki",
+      "price": 1746.89,
+      "distance": 3.7036247037096333,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-25T19:23:20.649Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 7,
+      "origin": {
+        "lat": 3.8169,
+        "lng": 11.4997
+      },
+      "destination": {
+        "lat": 3.8502,
+        "lng": 11.4732
+      },
+      "currentPosition": {
+        "lat": 3.8169,
+        "lng": 11.4997
+      },
+      "originAddress": "18 Allée Marcadet, Biyem-Assi",
+      "destinationAddress": "313 Avenue d'Argenteuil, Etoa-Meki",
+      "price": 1763.65,
+      "distance": 6.596669407488365,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T10:03:03.586Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8563,
+        "lng": 11.5451
+      },
+      "destination": {
+        "lat": 3.8907,
+        "lng": 11.5342
+      },
+      "currentPosition": {
+        "lat": 3.8563,
+        "lng": 11.5451
+      },
+      "originAddress": "660 Place de Nesle, Mvan",
+      "destinationAddress": "15 Avenue des Saussaies, Mendong",
+      "price": 4955.33,
+      "distance": 3.3377922690868593,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-02T07:48:30.890Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.428Z"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": 8,
+      "origin": {
+        "lat": 3.8534,
+        "lng": 11.501
+      },
+      "destination": {
+        "lat": 3.8138,
+        "lng": 11.5395
+      },
+      "currentPosition": {
+        "lat": 3.8534,
+        "lng": 11.501
+      },
+      "originAddress": "34 Rue Bonaparte, Essos",
+      "destinationAddress": "5 Place de l'Odéon, Mendong",
+      "price": 2549.09,
+      "distance": 5.538162822196729,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-04T17:00:11.976Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.429Z"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.847,
+        "lng": 11.4884
+      },
+      "destination": {
+        "lat": 3.8927,
+        "lng": 11.5246
+      },
+      "currentPosition": {
+        "lat": 3.847,
+        "lng": 11.4884
+      },
+      "originAddress": "97 Rue Mouffetard, Mokolo",
+      "destinationAddress": "61 Impasse Charlemagne, Nlongkak",
+      "price": 2621.65,
+      "distance": 6.628398029397328,
+      "pickupDeadline": null,
+      "createdAt": "2025-06-29T11:15:55.884Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.429Z"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8619,
+        "lng": 11.4648
+      },
+      "destination": {
+        "lat": 3.8823,
+        "lng": 11.4577
+      },
+      "currentPosition": {
+        "lat": 3.8619,
+        "lng": 11.4648
+      },
+      "originAddress": "853 Rue Saint-Jacques, Mvan",
+      "destinationAddress": "77 Allée La Boétie, Mendong",
+      "price": 1101.55,
+      "distance": 9.682499221654064,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-05T04:32:00.604Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.429Z"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8493,
+        "lng": 11.5265
+      },
+      "destination": {
+        "lat": 3.8061,
+        "lng": 11.4629
+      },
+      "currentPosition": {
+        "lat": 3.8493,
+        "lng": 11.5265
+      },
+      "originAddress": "8 Boulevard Saint-Honoré, Bastos",
+      "destinationAddress": "85 Allée du Havre, Etoa-Meki",
+      "price": 4777.25,
+      "distance": 11.931760925953004,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T07:13:22.561Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.429Z"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8207,
+        "lng": 11.4794
+      },
+      "destination": {
+        "lat": 3.8074,
+        "lng": 11.5309
+      },
+      "currentPosition": {
+        "lat": 3.8207,
+        "lng": 11.4794
+      },
+      "originAddress": "5 Rue de Seine, Mvan",
+      "destinationAddress": "9 Place d'Orsel, Mendong",
+      "price": 3813.9,
+      "distance": 9.162432666986074,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-01T21:41:35.245Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.429Z"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "clientId": 2,
+      "livreurId": null,
+      "status": "pending",
+      "organizationId": null,
+      "origin": {
+        "lat": 3.8775,
+        "lng": 11.5296
+      },
+      "destination": {
+        "lat": 3.8526,
+        "lng": 11.4826
+      },
+      "currentPosition": {
+        "lat": 3.8775,
+        "lng": 11.5296
+      },
+      "originAddress": "2 Avenue de l'Odéon, Mokolo",
+      "destinationAddress": "935 Impasse Marcadet, Nlongkak",
+      "price": 2058.1,
+      "distance": 1.1951226275214843,
+      "pickupDeadline": null,
+      "createdAt": "2025-07-03T17:55:22.150Z",
+      "history": [
+        {
+          "status": "Created",
+          "timestamp": "2025-07-05T10:50:47.429Z"
+        }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "9938",
+      "deliveryId": "39",
+      "livreurId": "1",
+      "pickupTime": "2025-07-05T12:00:00.000Z",
+      "status": "accepted"
+    },
+    {
+      "id": "5589",
+      "deliveryId": "23",
+      "livreurId": "1",
+      "pickupTime": "2025-07-05T13:00:00.000Z",
+      "status": "accepted"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ export function NewDeliveryButton() {
     const { user } = useAuth();
 
     // Le bouton change de destination en fonction du statut de l'utilisateur
-    const href = user ? `/dashboard/${user.role === 'client' ? 'client/nouvelle' : user.role}` : '/login';
+    const href = user ? `/dashboard/missions` : '/login';
     const text = user ? "Aller à mon Dashboard" : "Envoyer un colis";
 
     return (
