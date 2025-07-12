@@ -1544,8 +1544,8 @@
     {
       "id": "41",
       "clientId": 2,
-      "livreurId": null,
-      "status": "pending",
+      "livreurId": "1",
+      "status": "assigned",
       "organizationId": null,
       "origin": {
         "lat": 3.8491,
@@ -1563,7 +1563,7 @@
       "destinationAddress": "6 Boulevard Saint-Jacques, Elig-Essono",
       "price": 3340.4,
       "distance": 3.2499936179131224,
-      "pickupDeadline": null,
+      "pickupDeadline": "2025-07-12T11:00:00.000Z",
       "createdAt": "2025-07-05T05:56:20.808Z",
       "history": [
         {
@@ -1865,6 +1865,20 @@
       "deliveryId": "23",
       "livreurId": "1",
       "pickupTime": "2025-07-05T13:00:00.000Z",
+      "status": "accepted"
+    },
+    {
+      "id": "c3ba",
+      "deliveryId": "41",
+      "livreurId": "1",
+      "pickupTime": "2025-07-12T11:00:00.000Z",
+      "status": "accepted"
+    },
+    {
+      "id": "d424",
+      "deliveryId": "41",
+      "livreurId": "1",
+      "pickupTime": "2025-07-12T11:00:00.000Z",
       "status": "accepted"
     }
   ]
