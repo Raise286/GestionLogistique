@@ -1,23 +1,25 @@
-package com.reactive_project.reactivep_roject.model;
+package com.reactive_project.reactivep_roject.Infrastructure.model;
 
 
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.relational.core.mapping.Table;
-import org.springframework.data.relational.core.mapping.Column;
+import com.reactive_project.reactivep_roject.Application.Enums.DeliveryStatus;
+import org.springframework.data.cassandra.core.mapping.PrimaryKey;
+import org.springframework.data.cassandra.core.mapping.Table;
+import org.springframework.data.cassandra.core.mapping.Column;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Table("deliveries")
 public class Delivery {
 
-    @Id
-    private Long id;
+    @PrimaryKey
+    private UUID id;
 
     @Column("client_id")
     private Long clientId;
 
     @Column("livreur_id")
-    private Long livreurId;
+    private UUID livreurId;
 
     @Column("organization_id")
     private Long organizationId;
@@ -62,11 +64,11 @@ public class Delivery {
     }
 
     // Getters et Setters
-    public Long getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 
@@ -78,11 +80,11 @@ public class Delivery {
         this.clientId = clientId;
     }
 
-    public Long getLivreurId() {
+    public UUID getLivreurId() {
         return livreurId;
     }
 
-    public void setLivreurId(Long livreurId) {
+    public void setLivreurId(UUID livreurId) {
         this.livreurId = livreurId;
     }
 
@@ -182,8 +184,5 @@ public class Delivery {
         this.createdAt = createdAt;
     }
 
-    // Enum
-    public enum DeliveryStatus {
-        PENDING, ASSIGNED, IN_PROGRESS, DELIVERED, CANCELLED
-    }
+
 }

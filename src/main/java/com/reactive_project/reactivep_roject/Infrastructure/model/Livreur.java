@@ -1,8 +1,11 @@
-package com.reactive_project.reactivep_roject.model;
+package com.reactive_project.reactivep_roject.Infrastructure.model;
 
 
 
-import org.springframework.data.relational.core.mapping.Column;
+import com.reactive_project.reactivep_roject.Application.Enums.Equipment;
+import com.reactive_project.reactivep_roject.Application.Enums.LivreurStatus;
+import com.reactive_project.reactivep_roject.Application.Enums.UserRole;
+import org.springframework.data.cassandra.core.mapping.Column;
 
 // Classe abstraite Livreur
 public abstract class Livreur extends BaseUser {
@@ -37,7 +40,7 @@ public abstract class Livreur extends BaseUser {
     // Constructeurs
     public Livreur() {
         super();
-        this.role = UserRole.LIVREUR;
+        this.setRole(UserRole.LIVREUR); // ✅ Proper way
         this.status = LivreurStatus.OFFLINE;
         this.rating = 0.0;
         this.totalDeliveries = 0;
@@ -160,13 +163,9 @@ public abstract class Livreur extends BaseUser {
     }
 
     // Enums
-    public enum LivreurStatus {
-        ONLINE, OFFLINE, BUSY
-    }
 
-    public enum Equipment {
-        VELO, SCOOTER, VOITURE
-    }
+
+
 
     public enum LivreurType {
         INDEPENDANT, EMPLOYE

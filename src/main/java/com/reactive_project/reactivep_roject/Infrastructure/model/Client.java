@@ -1,9 +1,10 @@
-package com.reactive_project.reactivep_roject.model;
+package com.reactive_project.reactivep_roject.Infrastructure.model;
 
 
 
-import org.springframework.data.relational.core.mapping.Table;
-import org.springframework.data.relational.core.mapping.Column;
+import com.reactive_project.reactivep_roject.Application.Enums.UserRole;
+import org.springframework.data.cassandra.core.mapping.Table;
+import org.springframework.data.cassandra.core.mapping.Column;
 
 @Table("clients")
 public class Client extends BaseUser {
@@ -23,7 +24,7 @@ public class Client extends BaseUser {
     // Constructeurs
     public Client() {
         super();
-        this.role = UserRole.CLIENT;
+        this.setRole(UserRole.CLIENT); // ✅ Proper way
     }
 
     public Client(String email, String password, String firstName, String lastName) {

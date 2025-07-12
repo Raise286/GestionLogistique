@@ -1,9 +1,9 @@
-package com.reactive_project.reactivep_roject.model;
+package com.reactive_project.reactivep_roject.Infrastructure.model;
 
 
 
-import org.springframework.data.relational.core.mapping.Table;
-import org.springframework.data.relational.core.mapping.Column;
+import org.springframework.data.cassandra.core.mapping.Table;
+import org.springframework.data.cassandra.core.mapping.Column;
 import java.time.LocalDate;
 
 @Table("livreurs_employes")
